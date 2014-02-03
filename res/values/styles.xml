@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="numberButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:textColor">#690050</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+       	<item name="android:onClick">onClick</item>
+    </style>
+    
+    
+    <style name="saveNumber">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding"> 3dp </item>
+        <item name="android:gravity"> center|left </item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@drawable/textboxborder</item>
+        <item name="android:textColor">#690050</item>
+    </style>
+
+    
+    
+</resources>
